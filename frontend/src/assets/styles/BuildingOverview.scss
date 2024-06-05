@@ -1,0 +1,64 @@
+@import url('@/assets/main.css');
+
+.building-overview-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: var(--color-background-ter);
+  padding: 15px;
+  margin: 20px;
+  border-radius: var(--border-radius);
+
+  h2 {
+    align-self: flex-start;
+    background-color: var(--color-background-prim);
+    padding: 0.3rem 0.5rem;
+    font-size: 20px;
+    max-width: 320px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: var(--border-radius);
+  }
+
+  .info-card {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 16px;
+  }
+
+  .details-button {
+    align-self: flex-end;
+    justify-content: center;
+    background-color: var(--color-btn-prim);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none !important;
+      color: white;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .details-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .details-button i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+  }
+}

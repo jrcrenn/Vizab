@@ -1,0 +1,36 @@
+@import url('@/assets/main.css');
+
+.sortby-container {
+  padding: 20px;
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15px;
+    width: 350px;
+
+    span {
+      background-color: white;
+      color: var(--color-text-ter);
+      border-radius: var(--border-radius);
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    select {
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: var(--border-radius);
+      background-color: var(--color-background-prim);
+      font-size: 20px;
+    }
+
+    option {
+      font-size: 20px;
+    }
+  }
+}

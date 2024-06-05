@@ -1,0 +1,38 @@
+
+:root {
+  --color-background-prim: #F5F5F5;
+  --color-background-sec: #E8F2F2;
+  --color-background-ter: #BEE7E5;
+
+  --color-btn-prim: #22334d;
+  
+  --color-text-prim: #060606;
+  --color-text-sec:  #ffffff;
+  --color-text-ter: #CDCDCD;
+
+
+  --border-radius: 0.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background-color: var(--color-background-prim);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 40px;
+}

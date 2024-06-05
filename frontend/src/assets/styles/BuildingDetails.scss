@@ -1,0 +1,50 @@
+@import url('@/assets/main.css');
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+  height: 700px;
+  background-color: var(--color-background-sec);
+  padding: 40px;
+  border-radius: var(--border-radius);
+
+  h2 {
+    font-weight: bold;
+  }
+
+  ul {
+    list-style: none;
+    padding: 5px;
+    padding-top: 20px;
+
+    li {
+      font-size: 20px;
+    }
+
+    .head-list {
+      font-weight: bold;
+    }
+  }
+
+  .go-back {
+    background: transparent;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    margin-top: 70px;
+    img {
+      width: 30px;
+    }
+    span {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}

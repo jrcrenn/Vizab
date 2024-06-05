@@ -1,0 +1,73 @@
+@import url('@/assets/main.css');
+
+main {
+  width: 80vw;
+  margin: auto;
+
+  div {
+    background-color: var(--color-background-sec);
+    border-radius: var(--border-radius);
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .pagination-top {
+        display: flex;
+        align-items: center;
+
+        button {
+          margin: 0 10px;
+          padding: 10px 20px;
+          border: none;
+          background-color: var(--color-primary);
+          color: black;
+          cursor: pointer;
+
+          &:disabled {
+            background-color: var(--color-disabled);
+            cursor: not-allowed;
+          }
+        }
+
+        span {
+          margin: 0 10px;
+          line-height: 32px;
+        }
+      }
+    }
+
+    .buildinglist-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .pagination-bottom {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+
+      button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        border: none;
+        background-color: var(--color-primary);
+        color: black;
+        cursor: pointer;
+
+        &:disabled {
+          background-color: var(--color-disabled);
+          cursor: not-allowed;
+        }
+      }
+
+      span {
+        margin: 0 10px;
+        line-height: 32px;
+      }
+    }
+  }
+}
