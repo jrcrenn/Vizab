@@ -10,6 +10,7 @@ export default {
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'vue'],
   testMatch: ['**/tests/**/*.spec.[jt]s?(x)'],
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1'
+    '^@/(.*)$': '<rootDir>/src/$1',
+    '\\.svg$': '<rootDir>/tests/svgMock.js'
   }
 };
