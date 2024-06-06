@@ -8,7 +8,7 @@ puis
 
 `npm run dev` 
 
-Cela lancera l'application à l'adresse `http://localhost:3000`.
+Cela lancera l'application à l'adresse `http://localhost:5173`.
 
 ## Structure du projet
 
